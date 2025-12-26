@@ -11,11 +11,11 @@ The model is trained on the Telco Customer Churn dataset and deployed using Stre
 - Scikit-learn
 - Streamlit
 - Joblib
+- OpenPyXL
 
 ---
 
-## Project Structure
-Customer-Churn-Prediction/
+Customer-churn-prediction/
 │
 ├── app.py # Streamlit web application
 ├── churn_model.py # Model training and saving script
@@ -33,11 +33,12 @@ Customer-Churn-Prediction/
 ---
 
 ## Features
-- Data preprocessing and feature engineering
-- Machine learning model training
+- Data preprocessing and cleaning
+- Handling mixed data types and missing values
+- Machine learning model training (Logistic Regression)
+- One-hot encoding for categorical variables
 - Customer churn prediction
 - Interactive Streamlit-based user interface
-- Safe handling of missing model files for GitHub deployment
 
 ---
 
@@ -57,9 +58,9 @@ model_columns.pkl
 
 ## How to Run the Application
 - install dependencies
-- pip install -r requirements.txt
+  pip install -r requirements.txt
 - Run the Streamlit app
-- streamlit run app.py
+ streamlit run app.py
 
 ## Dataset
 The dataset used is the public Telco Customer Churn dataset, which contains customer demographic,
