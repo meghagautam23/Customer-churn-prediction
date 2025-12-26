@@ -14,22 +14,19 @@ The model is trained on the Telco Customer Churn dataset and deployed using Stre
 - OpenPyXL
 
 ---
+## Project Structure
 
+```text
 Customer-churn-prediction/
-│
-├── app.py # Streamlit web application
-├── churn_model.py # Model training and saving script
-├── requirements.txt # Project dependencies
-├── README.md # Project documentation
-├── .gitignore # Files and folders to ignore in Git
-│
-├── data/
-│ └── Telco_customer_churn.xlsx # Dataset used for training
-│
+├── app.py                  # Streamlit web application
+├── churn_model.py          # Model training and saving script
+├── requirements.txt        # Project dependencies
+├── README.md               # Project documentation
+├── .gitignore              # Files and folders to ignore in Git
+├── Telco_customer_churn.xlsx  # Dataset used for training
 ├── notebooks/
-│ └── churn_analysis.ipynb # Exploratory data analysis notebook
-
-
+│   └── churn_analysis.ipynb   # Exploratory data analysis notebook
+```
 ---
 
 ## Features
